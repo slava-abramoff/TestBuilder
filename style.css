@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Серый фон */
+}
+
+.test-controls button {
+    background-color: #ffa500; /* оранжевый цвет */
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* округлённые стороны */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* плавный переход */
+}
+
+.test-controls button:hover {
+    background-color: #e69500; /* темнее оранжевый при наведении */
+}
+
+.test-name-input input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ffa500; /* оранжевая обводка */
+    border-radius: 8px; /* округлённые края */
+    box-sizing: border-box; /* чтобы padding не влиял на ширину */
+    outline: none; /* убрать стандартное выделение */
+    transition: border-color 0.3s ease; /* плавный переход для обводки */
+}
+
+.test-name-input input[type="text"]:focus {
+    border-color: #e69500; /* темнее обводка при фокусе */
+}
+
+.question-type {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ffa500; /* оранжевая обводка */
+    border-radius: 8px; /* округлённые края */
+    background-color: #fff; /* белый фон */
+    color: #333; /* тёмный текст */
+    outline: none; /* убрать стандартное выделение */
+    transition: border-color 0.3s ease; /* плавный переход для обводки */
+    appearance: none; /* убрать стандартный стиль браузера */
+    -webkit-appearance: none; /* для Safari */
+    -moz-appearance: none; /* для Firefox */
+}
+
+.question-type:focus {
+    border-color: #e69500; /* темнее обводка при фокусе */
+}
+
+.answers button {
+    background-color: #4caf50; /* зелёный цвет */
+    color: #fff;
+    border: none;
+    border-radius: 12px; /* округлённые края */
+    padding: 5px 10px; /* маленькие отступы */
+    font-size: 14px; /* меньший размер текста */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* плавный переход */
+}
+
+.answers button:hover {
+    background-color: #388e3c; /* темнее зелёный при наведении */
+}
+
+.correct-text-answer, .question-text  {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ffa500; /* оранжевая обводка */
+    border-radius: 8px; /* округлённые края */
+    box-sizing: border-box; /* чтобы padding не влиял на ширину */
+    outline: none; /* убрать стандартное выделение */
+    transition: border-color 0.3s ease; /* плавный переход для обводки */
+}
+
+.correct-text-answer:focus {
+    border-color: #e69500;
+}
